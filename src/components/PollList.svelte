@@ -27,5 +27,7 @@
     <div>
       <PollDetails {poll} />
     </div>
+  {:else}
+    <p>No polls here!</p>
   {/each}
 </div>
